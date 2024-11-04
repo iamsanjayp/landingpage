@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: "poppins", "sans-serif";
+}
+header{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  background: url("2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  opacity: 0.9;
+  overflow: hidden;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-list{
+  flex: 1;
+  text-align: center
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+.button1{
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  font-size: 32px;
+  font-weight: bold;
+  color: blue;
+}
+.button2{
+  border: 1px hidden;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  background-color: orange;
+}
+.text-box {
+  text-align: start;
+  margin: 1px 0px 451px 41px;
+  position: relative;
+  top: 125px;
+}
+
+.text-box > h1 {
+  color: blue;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 118.381px;
+  letter-spacing: -1.92px;
+}
+
+.text-box > h2 {
+  color: blue;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text-box > button {
+  border-radius: 13.301px;
+  background: blue;
+  color: lightblue;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  margin-top: 26px;
+}
+
+.topSelling-container {
+  text-align: center;
+}
+.topSelling-container > h1 {
+  color: blue;
+  text-align: center;
+  font-size: 62px;
+  font-weight: 700;
+  margin: 40px auto;
+}
+.row-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-colom {
+  position: relative;
+  width: 417.658px;
+  height: 607.866px;
+}
+.card-colom > .img > img {
+  position: absolute;
+}
+.card-colom > .img > .bali-img {
+  left: 18px;
+  height: 480px;
+  width: auto;
+}
+.card-colom > .img > .osaka-img {
+  left: 18px;
+  height: 480px;
+  width: 400px;
+}
+.card-colom > .img > .swiss-img {
+  left: 18px;
+  height: 480px;
+  width: auto;
+}
+.card-contents {
+  border-radius: 0px 0px 31.923px 31.923px;
+  background:white;
+  width: 418.988px;
+  height: 172.916px;
+  position: absolute;
+  bottom: 0px;
+}
+.card-contents > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-contents > span > p:nth-child(1) {
+  margin-left: 26.6px;
+}
+.card-contents > span > p:nth-child(2) {
+  margin-right: 37.23px;
+}
+.card-contents > span > p {
+  color: blue;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 124.5%;
+  margin-top: 35.9px;
+}
+.card-contents > p {
+  color: blue;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 124.5%;
+  display: flex;
+  align-items: center;
+  margin-top: 24.54px;
+  margin-left: 26.6px;
+  gap: 18.62px;
+}
+.easysteps{
+  text-decoration: none;
+  color: blue;
+  list-style: none;
+  text-align: center;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 113.65px;
+}
+.footer-container > p {
+  color: var(--textclr, #5e6282);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 124.5%;
+  text-align: start;
+}
+.social-icons {
+  margin-left: 620px;
+}
+.social-icons > span {
+  position: relative;
+}
+.social-icons > span > .insta-icon {
+  position: absolute;
+  top: -40px;
+  left: 33px;
+}
+.thanks{
+  text-align: center;
+  color: blue;
+}
+.copyRights{
+  text-align: center;
+  color: blue;
+}
